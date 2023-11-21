@@ -1,3 +1,4 @@
+// Завдання 1 
 const list = document.createElement('ul');
 list.id = 'list';
 
@@ -16,6 +17,7 @@ const result = `${listItems[0].textContent}, ${listItems[listItems.length - 1].t
 console.log(result);
 
 
+// Завдання 3
 const body = document.createElement("body");
 const main = document.createElement("main");
 const div = document.createElement("div");
@@ -33,6 +35,7 @@ body.appendChild(main);
 document.documentElement.appendChild(body);
 
 
+//Завдання 4
 document.addEventListener('DOMContentLoaded', function () {
     const submitBtn = document.querySelector('.btn');
     const outBlock = document.querySelector('.out');
@@ -59,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
+// Завдання 5
 const circleElements = document.querySelectorAll('.circle');
 
 circleElements.forEach((circleElement) => {
@@ -73,6 +77,7 @@ circleElements.forEach((circleElement) => {
 });
 
  
+//Завдання 6
 const colorElements = document.querySelectorAll('.color');
 const priceElement = document.getElementById('outprice');
 
